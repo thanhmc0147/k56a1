@@ -69,6 +69,12 @@ hr {
 	margin-bottom: 30px;
 	border: 0;
 }
+.logoto a
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-shadow: 1px 1px 2px black;
+	font-size: 30px;
+}
 /* Navigation */
 #menu {
 	padding: 20px;
@@ -118,7 +124,7 @@ hr {
 	background-color: #FFF;
 }
 .section-title {
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 .btn-custom {
 	text-transform: uppercase;
@@ -170,25 +176,57 @@ hr {
 }
 .intro h1 {
 	color: rgba(255,255,255,0.9);
-	font-size: 64px;
+	font-size: 80px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	text-shadow: 1px 1px 20px black;
 }
 .intro p {
 	color: rgba(255,255,255,0.8);
 	font-size: 22px;
-	margin-bottom: 40px;
+	margin-bottom: 200px;
 	margin-top: 20px;
+	text-shadow: 1px 1px 20px black;
+
+}
+.about-text
+{
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+.about-text a{
+	padding-left: 30px;
+}
+.about-text .nut{
+	background-color: rgb(89, 177, 195);
+	width: 450px;
+	height: 50px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+.img-responsive
+{
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 black;
+}
+.about-text a img
+{
+	width: 28%;
+	position: relative;
+	top: -20px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 0 black;
 }
 header .intro-text {
-	padding-top: 250px;
+	padding-top:250px;
 	padding-bottom: 200px;
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 90px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
 	background: rgb(84,208,221); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* FF3.6-15 */
@@ -202,9 +240,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #about img {
 	float: right;
 }
+
 #about p {
 	margin-bottom: 30px;
 	line-height: 21px;
+}
+.logonho
+{
+	width: 10%;
+	position: relative;
+	right: 45px;
+	top: 30px;
 }
 /* Portfolio Section */
 #portfolio {
